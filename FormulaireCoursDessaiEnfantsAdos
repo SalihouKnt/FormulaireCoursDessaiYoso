@@ -1,18 +1,13 @@
  <div class="trx_addons_columns_wrap">
-    <h4>ADULTES / MAJEURS</h4>
+    <h4>ENFANTS / ADOS</h4>
     <div class="trx_addons_column-2_2">
         <span class="style-line button">
+            <P> Je soussingé(e):</P>
             [select* civilite first_as_label "Civilité..." "Monsieur" "Madame"]
         </span>
 </div>
 
-<div class="trx_addons_column-2_2">
-    <p>Date de naissance</p>
-<span class="style-line date">
-    [date* date de naissance]
-</span>
-    </div>
- </div>
+<p>Responsable légal(e) de:</p>
 
 <div class="trx_addons_columns_wrap">
     <div class="trx_addons_column-1_2">
@@ -27,6 +22,14 @@
         </span>
     </div>
 </div>
+
+<div class="trx_addons_column-2_2">
+    <p>Né(e) le: </p>
+<span class="style-line date">
+    [date* date de naissance]
+</span>
+    </div>
+ </div>
 
 <div class="trx_addons_columns_wrap">
     <div class="trx_addons_column-1_2">
@@ -45,7 +48,7 @@
     <p><b>COURS D'ESSAI</b></p>
     <div class="trx_addons_column-1_1">
         <span class="style-line select">
-            [select* choixducours first_as_label "Sélectionnez un cours*" "JIU JITSU ADULTES (dès 15 ans)" "GRAPPLING ADULTES (dès 15 ans)" "OEN MAT ACCESS + GRAPPLING (dès 15 ans)"]
+            [select* choixducours first_as_label "Sélectionnez un cours*" "JIU JITSU ENFANTS (dès 5-10 ans)" "JIU JITSU ADOS (dès 11-14 ans)" ]
         </span>
     </div>
 </div>
@@ -61,7 +64,7 @@
 <h3>ASSURANCE</h3>
 <p><strong>Cette séance d’initiation comprend une assurance responsabilité civile et accident corporel prise en charge par la CFJJB.</strong></p>
  
-<p>[acceptance consentement "<strong>JE CERTIFIE</strong> être en bonne condition physique et apte à participer à cette séance d’initiation. Aucun professionnel de santé ne m’a déconseillé cette activité. Je reconnais participer sous ma propre responsabilité et accepte que cette décharge puisse être utilisée par les organisateurs. Je suis informé que l’assurance responsabilité civile et accident corporel est prise en charge par la CFJJB dans le cadre de cet essai."]</p>  
+<p>[acceptance consentement "<strong>JE CERTIFIE</strong> que mon enfant est en bonne condition physique et apte à participer à cette séance d’initiation. Aucun professionnel de santé ne lui a déconseillé cette activité. Je reconnais qu'il participe sous ma propre responsabilité et accepte que cette décharge puisse être utilisée par les organisateurs. Je suis informé que l’assurance responsabilité civile et accident corporel est prise en charge par la CFJJB dans le cadre de cet essai."]</p>  
 
 <div class="trx_addons_columns_wrap">
     <div class="trx_addons_column-1_1">
