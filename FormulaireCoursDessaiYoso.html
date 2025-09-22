@@ -1,17 +1,24 @@
 <h3>ASSURANCE</h3>
 <p><strong>Cette séance d’initiation comprend une assurance responsabilité civile et accident corporel prise en charge par la CFJJB. Pour en bénéficier, merci de bien vouloir remplir et signer ce formulaire avant la séance.</strong></p>
  
-<p>[acceptance consentement "<strong>JE CERTIFIE</strong> être en bonne condition physique et apte à participer à cette séance d’initiation. Aucun professionnel de santé ne m’a déconseillé cette activité. Je reconnais participer sous ma propre responsabilité et accepte que cette décharge puisse être utilisée par les organisateurs. Je suis informé que l’assurance responsabilité civile et accident corporel est prise en charge par la CFJJB dans le cadre de cet essai."]</p>
-
-<div class="trx_addons_columns_wrap">
-    <div class="trx_addons_column-1_2">
-        <span class="style-line button">
-            [radio* civilite use_label_element "Monsieur" "Madame"]
-        </span>
-   
+<p>[acceptance consentement "<strong>JE CERTIFIE</strong> être en bonne condition physique et apte à participer à cette séance d’initiation. Aucun professionnel de santé ne m’a déconseillé cette activité. Je reconnais participer sous ma propre responsabilité et accepte que cette décharge puisse être utilisée par les organisateurs. Je suis informé que l’assurance responsabilité civile et accident corporel est prise en charge par la CFJJB dans le cadre de cet essai."]</p>   
 
 <div class="trx_addons_columns_wrap">
     <h4>ADULTES / MAJEURS</h4>
+    <div class="trx_addons_column-1_2">
+        <span class="style-line button">
+            [select* civilite first_as_label "Civilité..." "Monsieur" "Madame"]
+        </span>
+</div>
+
+<div class="trx_addons_column-1_2">
+<span class="style-line date">
+    [date* date de naissance]
+</span>
+    </div>
+ </div>
+
+<div class="trx_addons_columns_wrap">
     <div class="trx_addons_column-1_2">
         <span class="style-line name">
             
@@ -24,13 +31,6 @@
         </span>
     </div>
 </div>
-
-<div class="trx_addons_column-1_2">
-<span class="style-line date">
-    [date* date de naissance]
-</span>
-    </div>
- </div>
 
 <div class="trx_addons_columns_wrap">
     <div class="trx_addons_column-1_2">
