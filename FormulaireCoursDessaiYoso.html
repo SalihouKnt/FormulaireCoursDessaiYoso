@@ -5,7 +5,16 @@
 
 <div class="trx_addons_columns_wrap">
     <div class="trx_addons_column-1_2">
+        <span class="style-line button">
+            [radio* civilite use_label_element "Monsieur" "Madame"]
+        </span>
+   
+
+<div class="trx_addons_columns_wrap">
+    <h4>ADULTES / MAJEURS</h4>
+    <div class="trx_addons_column-1_2">
         <span class="style-line name">
+            
             [text* nom placeholder "Nom*"]
         </span>
     </div>
@@ -15,6 +24,13 @@
         </span>
     </div>
 </div>
+
+<div class="trx_addons_column-1_2">
+<span class="style-line date">
+    [date* date de naissance]
+</span>
+    </div>
+ </div>
 
 <div class="trx_addons_columns_wrap">
     <div class="trx_addons_column-1_2">
@@ -30,17 +46,10 @@
 </div>
 
 <div class="trx_addons_columns_wrap">
-    <div class="trx_addons_column-1_1">
-        <span class="style-line sujet">
-            [text subject placeholder "COURS D'ESSAI"]
-        </span>
-    </div>
-</div>
-
-<div class="trx_addons_columns_wrap">
+    <p><b>COURS D'ESSAI</b></p>
     <div class="trx_addons_column-1_1">
         <span class="style-line select">
-            [select* choixducours first_as_label "Sélectionnez un cours*" "JIU JITSU KIDS 1 (5-10 ans)" "JIU JITSU KIDS 2 (11-14 ans)" "JIU JITSU ADULTES (dès 15 ans)" "GRAPPLING ADULTES (dès 15 ans)"]
+            [select* choixducours first_as_label "Sélectionnez un cours*" "JIU JITSU ADULTES (dès 15 ans)" "GRAPPLING ADULTES (dès 15 ans)" "OEN MAT ACCESS + GRAPPLING (dès 15 ans)"]
         </span>
     </div>
 </div>
@@ -48,7 +57,7 @@
 <div class="trx_addons_columns_wrap">
     <div class="trx_addons_column-1_1">
         <span class="style-line textarea">
-            [textarea* message placeholder "Votre message*"]
+            [textarea message placeholder "Votre message (optionnel)"]
         </span>
     </div>
 </div>
